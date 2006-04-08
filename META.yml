@@ -1,0 +1,21 @@
+---
+name: Test-Run-CmdLine-Plugin-ColorSummary
+version: 0.0100_01
+author:
+  - Shlomi Fish <shlomif@iglu.org.il>
+abstract: Color the summary in Test::Run::CmdLine.
+license: bsd
+resources:
+  license: http://www.opensource.org/licenses/bsd-license.php
+requires:
+  Test::More: 0
+  Test::Run::CmdLine: 0
+  Test::Run::Plugin::ColorSummary: 0
+provides:
+  Test::Run::CmdLine::Plugin::ColorSummary:
+    file: lib/Test/Run/CmdLine/Plugin/ColorSummary.pm
+    version: 0.0100_01
+generated_by: Module::Build version 0.2704
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
