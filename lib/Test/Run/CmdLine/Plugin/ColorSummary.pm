@@ -11,7 +11,7 @@ Test::Run::CmdLine::Plugin::ColorSummary - Color the summary in Test::Run::CmdLi
 
 =cut
 
-our $VERSION = '0.0100_01';
+our $VERSION = '0.0101';
 
 sub _initialize
 {
@@ -68,13 +68,53 @@ L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Test-Run-CmdLine-Plugin-ColorSu
 I will be notified, and then you'll automatically be notified of progress on
 your bug as I make changes.
 
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc Test::Run::CmdLine::Plugin::ColorSummary
+
+You can also look for information at:
+
+=over 4
+
+=item * AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/Test::Run::CmdLine::Plugin::ColorSummary>
+
+=item * CPAN Ratings
+
+L<http://cpanratings.perl.org/d/Test::Run::CmdLine::Plugin::ColorSummary>
+
+=item * RT: CPAN's request tracker
+
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Test::Run::CmdLine::Plugin::ColorSummary>
+
+=item * Search CPAN
+
+L<http://search.cpan.org/dist/Test::Run::CmdLine::Plugin::ColorSummary/>
+
+=back
+
+=head1 SOURCE AVAILABILITY
+
+The latest source of Test::Run::CmdLine::Plugin::ColorSummary is available from the 
+Test::Run BerliOS Subversion repository:
+
+L<https://svn.berlios.de/svnroot/repos/web-cpan/Test-Harness-NG/>
+
+=head1 SEE ALSO
+
+L<Test::Run::Obj>, L<Term::ANSIColor>, 
+L<Test::Run::Plugin::ColorSummary>.
+
 =head1 ACKNOWLEDGEMENTS
 
 =head1 COPYRIGHT & LICENSE
 
 Copyright 2006 Shlomi Fish, all rights reserved.
 
-This program is released under the following license: BSD
+This program is released under the following license: MIT X11.
 
 =cut
 
